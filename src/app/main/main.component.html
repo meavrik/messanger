@@ -1,0 +1,7 @@
+<div class="container">
+
+  <app-messanger *ngFor="let item of messangers" [title]="item.title" [owner]="item.owner"></app-messanger>
+  <!-- <app-messanger title="Messanger 2" owner="Tal"></app-messanger> -->
+
+  <button class="addButn" (click)="onAdd()">+</button>
+</div>

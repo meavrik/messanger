@@ -1,0 +1,21 @@
+.container {
+    background-color: white;
+    text-align: left;
+    min-width:180px;
+    height: 60px;
+    display: block;
+    border-bottom: 1px solid rgb(218, 210, 210);
+    padding: 2px 1em;
+    font-size: 0.8em;
+    transition: 300ms all;
+    cursor: pointer;
+}
+
+.container:hover  {
+    background-color: rgb(233, 223, 223);
+}
+
+
+p {
+    margin: 0;
+}

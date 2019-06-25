@@ -1,0 +1,13 @@
+<div class="container">
+    <header [title]="owner"></header>
+
+    <div style="display: flex">
+        <friends-list></friends-list>
+
+        <div style="width:100%">
+            <messages-list></messages-list>
+            <message-input (newMessage)="onNewMessage($event)" (isTyping)="onTyping()"></message-input>
+        </div>
+    </div>
+  
+</div>

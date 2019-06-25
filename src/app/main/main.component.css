@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100wh;
+    /* justify-content: space-between; */
+}
+
+.addButn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 40px;
+    width:40px;
+    height: 40px;
+    background-color: rgb(126, 126, 197);
+    border: none;
+    color:white;
+    margin: 10px;
+    outline: none;
+}
+
+.addButn:hover {
+    background-color: rgb(89, 89, 158);
+}

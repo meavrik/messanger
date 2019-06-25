@@ -1,0 +1,6 @@
+<div #messagesContainer class="container">
+
+    <message *ngFor="let item of messages" [style.textAlign]="getAlignment(item)" [message]="item"></message>
+
+
+</div>

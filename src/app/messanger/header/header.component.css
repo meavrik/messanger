@@ -1,0 +1,16 @@
+.container {
+    background-color: rgb(218, 208, 208);
+    height: 40px;
+    text-align: left;
+    padding: 0 5px;
+    color: rgb(88, 76, 76);
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin:0;
+}

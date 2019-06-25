@@ -1,0 +1,7 @@
+<div class="container">
+  <div *ngIf="friends && friends.length" style="width:100%">
+      <input [(ngModel)]="searchStr" type="text" placeholder="serach friend" (input)="onInput($event)">
+  </div>
+    
+    <friend-item *ngFor="let item of filteredFriends" [friend]="item"></friend-item>
+</div>
